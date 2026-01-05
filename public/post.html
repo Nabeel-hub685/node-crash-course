@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing post request vro!</title>
+</head>
+<body>
+    <script>
+        let postTest = async ()=>{
+             let response =await fetch('/' , {method: 'POST'})
+             let data = await response.text();
+             console.log(`hellllllllllo ${data}`) // ye browser k console pr print horha he!
+        }
+
+        postTest();
+    </script>
+    
+</body>
+</html>
