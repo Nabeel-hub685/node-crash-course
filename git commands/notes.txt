@@ -6,3 +6,18 @@ krsaktry hen , isse saary k saary commits dikhai dengy hamy!
 
 
 q se bahr asakty hen command k answer me phnsy hon to agar!
+
+
+
+imp: 
+
+if we want ot merge a branch code to another , so we need to be in the branch in which we want the changes from other branch!
+
+syntax is 
+
+main me hoke
+
+git merge feature2a
+
+mtlb main branch me feature2a ka code merge krdo !!
+
